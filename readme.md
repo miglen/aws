@@ -12,8 +12,8 @@ List of awesome AWS scripts, snippets and one-liners. Use on your own risk!
 
 ### EC2
 
-	* [Migrate instance](https://github.com/miglen/aws/ec2/change_instance.sh)
-	* 
+ * (Migrate instance)[https://github.com/miglen/aws/blob/master/ec2/change_instance.sh]
+ * (Run script on EC2 instance termination)[https://github.com/miglen/aws/blob/master/ec2/run-script-on-ec2-instance-termination.md]
 
 ### S3 
-	* [S3 Multipart upload](https://github.com/mumrah/s3-multipart)
+ * (S3 Multipart upload)[https://github.com/mumrah/s3-multipart]
