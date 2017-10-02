@@ -5,7 +5,7 @@ The easiest way is to create symlink in /etc/rc0.d/ starting with S01 so the scr
 
 Here is an example:
 
-`ls -s /etc/ec2-termination /etc/rc0.d/S01ec2-termination`
+`ln -s /etc/ec2-termination /etc/rc0.d/S01ec2-termination`
 
 One important thing to consider is that in this run level you might loose environment variables such as $PATH so you need to specify the full path to your programs such as `/bin/cp` or `/usr/bin/curl`
 
